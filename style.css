@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(255, 0, 17);
+    background-image: url("./pictures\ farmers/moving heart.jpg");
+    background-repeat: repeat;
+    color: black;
+    text-align: center;
+    text-decoration: wavy;
+    margin: 0;
+    padding: 0;
+}
+.moving{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.moving .moving-bg{
+    box-sizing: content-box;
+    padding-bottom: 300px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('./pictures\ farmers/moving heart.jpg');
+    background-size: cover;
+    animation: moving 30s linear infinite;
+}
+@keyframes moving{
+    from{
+        transform: translateY(0)
+    }
+    to{
+        transform: translateY(-300PX)
+    }
+}
+header{
+    padding: 30px;
+    background: rgb(232, 15, 30);
+}
+h1{
+    font-size: 3em;
+}
+.intro{
+    padding: 20px;
+    font-size: 1.2em;
+}
+.gallery{
+    padding: 20px;
+}
+.the-dates{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.date-card{
+    background: wheat;
+    color: black;
+    padding: 20px;
+    border-style:groove;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow:none;
+}
+
