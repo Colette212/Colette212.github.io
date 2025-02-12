@@ -2,7 +2,7 @@ body{
     background-color: rgb(255, 0, 17);
     background-image: url("./pictures\ farmers/moving heart.jpg");
     background-repeat: repeat;
-    color: black;
+    color: white;
     text-align: center;
     text-decoration: wavy;
     margin: 0;
@@ -45,11 +45,15 @@ h1{
 }
 .gallery{
     padding: 20px;
+    animation: infinite;
+    animation-duration: inherit;
 }
 .the-dates{
     display: flex;
     justify-content: center;
     gap: 10px;
+    animation: forwards;
+    animation-duration: 20s;
 }
 .date-card{
     background: wheat;
